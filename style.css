@@ -1,0 +1,607 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: border-box;
+    text-decoration: none;
+    
+}
+
+.navbar{
+    height: 50px;
+    background-color: #0f1111;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* -----------box1------------- */
+
+#box1{
+    height: 40px;
+    width: 80px;
+    background-image: url(logo.png);
+    background-size: cover;
+    margin-left: 5px;
+}
+
+/*------------ box2------------ */
+
+#box2{
+    height: 40px;
+}
+
+#box2 #line1{
+    font-size: 14px;
+    color: #cccccc;
+    padding-left: 18px;
+    
+}
+
+#box2 #line2{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+#box2 #loc_icon{
+    font-size: 18px;
+}
+
+
+
+
+/* -------------box3----------- */
+#box3{
+    height: 40px;
+    width: 700px;
+    /* background-color: aqua; */
+    
+    display: flex;
+    
+    
+}
+
+#box3 select{
+    /* background-color: #dfdfdf; */
+    background-color: #f4f4f4;
+    color: #0f1111;
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    /* flex-grow: 0.25; */
+}
+#box3 option{
+    background-color: #ffffff;
+}
+
+#box3 input{
+    height: 40px;
+    background-color: #ffffff;
+    flex-grow: 1;
+    border: none;
+    font-size: 16px;
+}
+
+ #box3 button{
+    background-color: #ebb25c;
+    color: #07181c;
+    font-size: 20px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+ }
+
+ /*-------------- box5------------- */
+ #box5{
+    height: 40px;
+ }
+
+ #box5_line1{
+    font-size: 14px;
+    color: #ffffff;
+ }
+
+ #box5_line2{
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+ }
+
+ #box5 #tringle_icon{
+    color: #cccccc;
+ }
+
+ /* -------------box6-------------- */
+ #box6{
+    height: 40px;
+}
+
+#box6_line1{
+   font-size: 14px;
+   color: #ffffff;
+   padding-left: 8px;
+}
+
+#box6_line2{
+   font-size: 16px;
+   color: #ffffff;
+   font-weight: 700;
+   /* line-height: 10px; */
+}
+
+/*------------- box7-------------- */
+#box7{
+    height: 40px;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+
+#box7 #cart_icon{
+    font-size: 35px;
+}
+
+/* -----------------------------navbar2----------------------------- */
+
+#nav2{
+    height: 40px;
+    background-color: #232f3e;
+}
+
+/* --------nav2 section1------- */
+
+#nav2_s1_box0 #menu_bar{
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+#nav2_section1{
+
+    /* height: 40px; */
+    display: flex;
+    /* justify-content: space-between;
+    align-items: center; */
+    
+}
+
+#nav2_section1 div{
+
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left:  7px;
+    padding-right: 7px;
+}
+
+/* --------nav2 section2------- */
+#nav2_section2{
+    height: 40px;
+    width: 450px;
+    background-image: url(minitv_Add.jpg);
+    background-size: cover;
+    position: absolute;
+    right: 0px;
+    /* display: inline-block; */
+}
+
+.navbar a:hover{
+    border: 1px solid #ffffff;
+}
+
+#nav2_section1 a:hover{
+    border: 1px solid #ffffff;
+}
+
+/*  ===============footer==============*/
+#foot0{
+    font-size: 12px;
+    color: #000000;
+    text-align: center;
+    line-height: 25px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    margin-bottom: 15px;
+    border-bottom: 0.25px solid #000000;
+}
+
+
+#foot0_button{
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    border-radius: 5px;
+    background-color: #ff9900;
+    color: #000000;
+    font-weight: 700;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+
+
+#foot_f1{
+    background-color:#37475a;
+    height: 40px;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------foot2------------- */
+
+#foot_f2{
+    background-color:#232F3E;
+
+}
+
+#foot_f2_1{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#foot_f2 dl{
+    width: 200px;
+    margin: 20px;
+}
+
+#foot_f2 dt{
+    font-size: 16px;
+    font-weight: 700;
+    color: #ffffff;
+    padding-bottom: 15px;
+}
+
+#foot_f2 dd{
+    padding-bottom: 8px;
+}
+
+#foot_f2 a{
+    font-size: 16px;
+    color: #dddddd;
+}
+
+#foot_f2 a:hover{
+    text-decoration: underline;
+}
+
+/* ------------foot3------------ */
+#foot3{
+    display: flex;
+    justify-content: center;
+    border-top: 0.25px solid #999999;
+} 
+#foot3_logo{
+    height: 40px;
+    width: 80px;
+    background-image: url(logo.png);
+    background-size: cover;
+    margin-right: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#foot3_lang{
+    color:#cccccc ;
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.25px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+#globe{
+    padding-right: 5px;
+}
+
+#foot3_arrow{
+    padding-left: 15px;
+}
+
+#foot3_india{
+    color:#cccccc ;
+    font-size: 14px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.25px solid #cccccc;
+    border-radius: 3px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+
+    
+}
+
+/* ---------------foot 4--------------- */
+#foot4{
+    background-color: #131A22;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+
+#foot4 dl{
+    display: inline-block;
+    text-align: left;
+    padding: 0px;
+    margin-bottom: 0px;
+
+    
+}
+#foot4 dt{
+    font-size: 13px;
+    color: #dddddd;
+    font-weight: 100;
+    padding-bottom: 0px;
+}
+#foot4 dd{
+    font-size: 13px;
+    color: #999999;
+    /* padding-bottom: 2px; */
+    padding-bottom: 0px;
+}
+
+
+
+/* ------------foot 5-------------- */
+#foot5{
+    background-color: #131A22;
+    font-size: 12px;
+    color: #dddddd;
+    text-align: center;
+    line-height: 17px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#foot5 a{
+    font-size: 12px;
+    color: #dddddd;
+    /* margin: 10px; */
+    /* margin-bottom: 20px; */
+    margin: 5px;
+    
+    
+
+}
+
+/* =================== main ==================== */
+
+main{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+/* ------------ BackGround ----------- */
+
+#background{
+    background-image: url(background2.jpg);
+    background-size: cover;
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+#background button{
+    height: 100%;
+    font-size: 50px;
+    /* color: #f4f4f4; */
+    width: 6%;
+    background: none;
+    border: none;
+
+}
+
+#background button:active{
+    border: 2px double black;
+    border-radius: 5px;
+    
+}
+
+/* ----------- main2 ----------- */
+#main1{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #dddddd;
+    
+}
+
+
+.out_box{
+    display: flex;
+    font-size: 22px;
+    font-weight: 700;
+    flex-wrap: wrap;
+    width: 20%;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 15px;
+
+
+}
+
+.out_box a{
+    font-size: 12px;
+    color: #0f1111;
+    font-weight: 100;
+    width: 130px;
+    margin-top: 10px;
+    
+}
+.in_box{
+    height: 100px;
+    width: 130px;
+}
+
+ .out_box .see_more{
+    font-size: 14px;
+    color: #007185;
+}
+
+
+
+/* -----------------------  Main 2 boxes --------------------- */
+
+#main1_box1_1{
+    background-image: url(box1_1.jpg);
+    background-size: cover;
+}
+#main1_box1_2{
+    background-image: url(box1_2.jpg);
+    background-size: cover;
+}
+#main1_box1_3{
+    background-image: url(box1_3.jpg);
+    background-size: cover;
+}
+#main1_box1_4{
+    background-image: url(box1_4.jpg);
+    background-size: cover;
+}
+
+#main1_box2_1{
+    background-image: url(box2_1.jpg);
+    background-size: cover;
+}
+#main1_box2_2{
+    background-image: url(box2_2.jpg);
+    background-size: cover;
+}
+#main1_box2_3{
+    background-image: url(box2_3.jpg);
+    background-size: cover;
+}
+#main1_box2_4{
+    background-image: url(box2_4.jpg);
+    background-size: cover;
+}
+
+#main1_box3_1{
+    background-image: url(box3_1.jpg);
+    background-size: cover;
+}
+#main1_box3_2{
+    background-image: url(box3_2.jpg);
+    background-size: cover;
+}
+#main1_box3_3{
+    background-image: url(box3_3.jpg);
+    background-size: cover;
+}
+#main1_box3_4{
+    background-image: url(box3_4.jpg);
+    background-size: cover;
+}
+
+#main1_box4_1{
+    background-image: url(box4_1.jpg);
+    background-size: cover;
+}
+#main1_box4_2{
+    background-image: url(box4_2.jpg);
+    background-size: cover;
+}
+#main1_box4_3{
+    background-image: url(box4_3.jpg);
+    background-size: cover;
+}
+#main1_box4_4{
+    background-image: url(box4_4.jpg);
+    background-size: cover;
+}
+
+#main1_box5_1{
+    background-image: url(box5_1.jpg);
+    background-size: cover;
+}
+#main1_box5_2{
+    background-image: url(box5_2.jpg);
+    background-size: cover;
+}
+#main1_box5_3{
+    background-image: url(box5_3.jpg);
+    background-size: cover;
+}
+#main1_box5_4{
+    background-image: url(box5_4.jpg);
+    background-size: cover;
+}
+
+#main1_box6_1{
+    background-image: url(box6_1.jpg);
+    background-size: cover;
+}
+#main1_box6_2{
+    background-image: url(box6_2.jpg);
+    background-size: cover;
+}
+#main1_box6_3{
+    background-image: url(box6_3.jpg);
+    background-size: cover;
+}
+#main1_box6_4{
+    background-image: url(box6_4.jpg);
+    background-size: cover;
+}
+
+#main1_box7_1{
+    background-image: url(box7_1.jpg);
+    background-size: cover;
+}
+#main1_box7_2{
+    background-image: url(box7_2.jpg);
+    background-size: cover;
+}
+#main1_box7_3{
+    background-image: url(box7_3.jpg);
+    background-size: cover;
+}
+#main1_box7_4{
+    background-image: url(box7_4.jpg);
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
